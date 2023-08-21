@@ -1,0 +1,18 @@
+{
+  "name": "darklify",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "Helping you build an easier dark-mode experience in React Native",
+  "workspaces": {
+      "packages": [
+        "library"
+      ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "yarn workspace library"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,25 @@
+{
+	"name": "darklify",
+	"version": "1.0.0",
+	"main": "./dist/index.js",
+	"typings": "./dist/index.d.ts",
+	"repository": "",
+	"author": "Admir Saheta <admir@praella.com> (https://admirsaheta.com)",
+	"description": "Helping you build an easier dark-mode experience in React Native",
+	"license": "MIT",
+	"scripts": {
+		"prepublishOnly": "yarn run clean && yarn run build",
+		"clean": "npx rimraf dist",
+		"build": "tsc",
+		"watch": "yarn run build --watch"
+	},
+	"peerDependencies": {
+		"react": "^16.11.0",
+		"react-native": "^0.62.0"
+	},
+	"dependencies": {
+		"@types/react": "*",
+		"@types/react-native": ">=0.62.0",
+		"toolkit.ts": "^0.0.2"
+	}
+}
